@@ -6,7 +6,7 @@
  * Retries up to N times across different keys before giving up.
  */
 
-const DEFAULT_MODEL = 'qwen/qwen3-coder:free';
+const DEFAULT_MODEL = 'nvidia/nemotron-3-ultra-550b-a55b:free';
 const MAX_RETRIES = 8; // Try up to 8 different keys before giving up
 
 class OpenRouterService {
